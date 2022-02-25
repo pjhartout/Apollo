@@ -1,0 +1,10 @@
+@use "../styles/variables";
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  min-height: 100vh;
+}

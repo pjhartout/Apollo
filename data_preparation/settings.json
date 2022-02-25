@@ -1,0 +1,89 @@
+{
+  "analysis_schema": {
+    "type": "object",
+    "properties": {
+      "tissue_directories": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "tissue_names": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "sample_strategy": {
+        "type": "array",
+        "items": {
+          "oneOf": [
+            {
+              "type": "string",
+              "enum": ["avg", "max", "min", "median"]
+            },
+            {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          ]
+        }
+      },
+      "expression_selection": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "enum": ["greater", "smaller"]
+                },
+                {
+                  "type": "number",
+                  "minimum": 0
+                }
+              ]
+            },
+            {
+              "type": "number",
+              "minimum": 0
+            }
+          ]
+        }
+      }
+    },
+    "required": [
+      "tissue_directories",
+      "tissue_names",
+      "sample_strategy",
+      "expression_selection"
+    ]
+  },
+  "database2gencode_version": {
+    "tcga": "v22",
+    "gtex": "v26"
+  },
+  "tcga_filter": {
+    "content": [
+      {
+        "content": {
+          "value": "HTSeq - Counts",
+          "field": "files.analysis.workflow_type"
+        },
+        "op": "="
+      },
+      {
+        "content": {
+          "value": "TCGA",
+          "field": "cases.project.program.name"
+        },
+        "op": "="
+      }
+    ],
+    "op": "and"
+  },
+  "sample_strategies": ["avg", "max", "min", "median"]
+}

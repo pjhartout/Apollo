@@ -1,0 +1,23 @@
+@use "../styles/variables";
+
+.downloadButton {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  padding: 0 32px;
+  margin: 0 0 0 15px;
+  font-size: 14px;
+  background: variables.$blue;
+  color: variables.$white;
+  border: none;
+  border-radius: variables.$border-radius;
+  padding: 0 10px;
+
+  svg {
+    height: 12px;
+    width: 12px;
+    margin-left: 10px;
+  }
+}

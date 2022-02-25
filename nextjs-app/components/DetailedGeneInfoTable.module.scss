@@ -1,0 +1,21 @@
+@use "../styles/variables.scss";
+
+$icon-size: 16px;
+
+.icon {
+  padding-left: variables.$padding-xxs;
+
+  svg {
+    width: $icon-size;
+    height: $icon-size;
+    font-size: $icon-size;
+  }
+
+  path {
+    fill: variables.$blue;
+  }
+}
+
+.anchor {
+  font-size: 14pt;
+}

@@ -1,0 +1,29 @@
+{
+  "columnsGeneInfoTile": [
+    {
+      "Header": "Ensembl ID",
+      "accessor": "id",
+      "id": "id"
+    },
+    {
+      "Header": "Gene name",
+      "accessor": "display_name"
+    },
+    {
+      "Header": "Description",
+      "accessor": "description"
+    },
+    {
+      "Header": "Biotype",
+      "accessor": "biotype"
+    },
+    {
+      "Header": "Chromosome Number",
+      "accessor": "seq_region_name"
+    },
+    {
+      "Header": "Length difference TCGA/GTEx",
+      "accessor": "isDifferentLength"
+    }
+  ]
+}

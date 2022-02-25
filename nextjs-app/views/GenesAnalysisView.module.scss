@@ -1,0 +1,15 @@
+@use "../styles/variables";
+
+.pageTitle {
+  padding-left: 15px;
+  margin-top: 12px !important;
+  margin-bottom: 20px;
+
+  + div {
+    padding-left: 15px;
+  }
+}
+
+.noGeneInfo {
+  margin-left: 15px;
+}

@@ -1,0 +1,18 @@
+@use "../styles/variables";
+
+.tissueGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1533px;
+}
+
+.note {
+  background-color: variables.$plotly-background;
+  border: solid 1px variables.$blue;
+  border-radius: variables.$border-radius;
+  overflow: hidden;
+  padding: 12px;
+  margin: 20px 0 20px 15px;
+  max-width: 1500px;
+}

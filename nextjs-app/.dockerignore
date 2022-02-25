@@ -1,0 +1,12 @@
+# Data folder
+public/data/reduced
+public/histograms
+
+# Dependency directories
+node_modules/
+
+# Testing
+testing/
+
+.git
+*.zip

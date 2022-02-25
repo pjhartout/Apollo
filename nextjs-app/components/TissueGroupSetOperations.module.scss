@@ -1,0 +1,13 @@
+@use "../styles/variables.scss";
+
+.setOperation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  button {
+    background: none;
+    border: none;
+  }
+}

@@ -1,0 +1,127 @@
+@use "../styles/variables.scss";
+
+.root {
+  width: variables.$content-container-width;
+  border-radius: variables.$border-radius !important;
+  border: 1px solid variables.$blue;
+  margin-top: 16px;
+
+  svg {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.heading {
+  flexbasis: "33.33%";
+  flexshrink: 0;
+}
+
+.infoContainer {
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.brainFigure {
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+.figure {
+  margin: 0;
+  padding-bottom: 16px;
+  img {
+    width: 100%;
+  }
+}
+
+.bullets {
+  font-size: 16px;
+}
+
+.figCaption {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  a {
+    font-size: 12px;
+  }
+
+  svg {
+    padding-left: 4px;
+    height: 16px;
+    width: 16px;
+
+    path {
+      fill: variables.$blue;
+    }
+  }
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contentContainer {
+  max-width: variables.$content-container-width;
+
+  p,
+  i {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+}
+
+.goToTissueSelection {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  background: variables.$blue;
+  color: variables.$white;
+  border: none;
+  border-radius: variables.$border-radius;
+  cursor: pointer;
+
+  svg {
+    height: 12px;
+    width: 12px;
+    margin-left: 10px;
+  }
+}
+
+.note {
+  background-color: variables.$plotly-background;
+  border: solid 1px variables.$blue;
+  border-radius: variables.$border-radius;
+  overflow: hidden;
+  padding: 12px;
+
+  sub {
+    vertical-align: bottom;
+    font-size: 0.6em;
+  }
+}
+
+.reproducibility {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}

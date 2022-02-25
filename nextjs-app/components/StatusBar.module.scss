@@ -1,0 +1,11 @@
+@use "../styles/variables.scss";
+
+$icon-size: 20px;
+
+.statusbar {
+  svg {
+    width: $icon-size;
+    height: $icon-size;
+    font-size: $icon-size;
+  }
+}

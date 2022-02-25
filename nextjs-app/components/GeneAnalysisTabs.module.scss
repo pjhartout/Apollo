@@ -1,0 +1,38 @@
+@use "../styles/variables.scss";
+
+.geneAnalysisTabs {
+}
+
+.muiTabRoot {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  height: 30px !important;
+  margin: 0 32px 0 0 !important;
+  font-size: 15px !important;
+  background: variables.$blue !important;
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 0 10px !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+
+  span {
+    color: variables.$white !important;
+    text-transform: none !important;
+    font-size: 16px !important;
+  }
+}
+
+.muiTabWrapper {
+  width: 350px !important;
+}
+
+.muiTabPanelRoot {
+  padding-left: 0px;
+
+  > div {
+    padding-left: 0px;
+  }
+}

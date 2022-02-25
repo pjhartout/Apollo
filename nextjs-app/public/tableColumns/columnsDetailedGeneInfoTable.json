@@ -1,0 +1,89 @@
+{
+  "columnsKeggPathways": [
+    {
+      "Header": "Kegg Pathway ID",
+      "accessor": "id"
+    },
+    {
+      "Header": "Kegg Pathway Name",
+      "accessor": "name"
+    }
+  ],
+
+  "columnsReactomePathways": [
+    {
+      "Header": "Reactome ID",
+      "accessor": "id"
+    },
+    {
+      "Header": "Reactome Pathway Name",
+      "accessor": "name"
+    }
+  ],
+  "columnsWikiPathways": [
+    {
+      "Header": "Reactome ID",
+      "accessor": "id"
+    },
+    {
+      "Header": "Wiki Pathway Name",
+      "accessor": "name"
+    }
+  ],
+
+  "columnsPublicationsMentioningGene": [
+    {
+      "Header": "Pubmed ID",
+      "accessor": "pubmed"
+    },
+    {
+      "Header": "Publication Name",
+      "accessor": "text"
+    }
+  ],
+
+  "columnsGOBiologicalProcess": [
+    {
+      "Header": "GO term ID",
+      "accessor": "id"
+    },
+    {
+      "Header": "Experimental evidence code",
+      "accessor": "evidence"
+    },
+    {
+      "Header": "GO Biological Process term",
+      "accessor": "term"
+    }
+  ],
+
+  "columnsGOCellularComponent": [
+    {
+      "Header": "GO term ID",
+      "accessor": "id"
+    },
+    {
+      "Header": "Experimental evidence code",
+      "accessor": "evidence"
+    },
+    {
+      "Header": "GO Cellular Component term",
+      "accessor": "term"
+    }
+  ],
+
+  "columnsGOMolecularFunction": [
+    {
+      "Header": "GO term ID",
+      "accessor": "id"
+    },
+    {
+      "Header": "Experimental evidence code",
+      "accessor": "evidence"
+    },
+    {
+      "Header": "GO Molecular Function term",
+      "accessor": "term"
+    }
+  ]
+}

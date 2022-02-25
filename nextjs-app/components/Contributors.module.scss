@@ -1,0 +1,47 @@
+.contributors {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  width: 100%;
+  justify-content: center;
+  padding: 15px;
+  align-items: flex-start;
+
+  h2 {
+    align-self: flex-start;
+    margin: 0;
+    padding: 20px 0 7px;
+  }
+
+  a {
+    color: #000000;
+    font-size: 15px;
+    margin: 0 0 0 15px;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+
+  li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  svg {
+    margin-right: 7px;
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}

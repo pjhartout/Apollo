@@ -1,0 +1,21 @@
+@use "../styles/variables";
+
+.pageTitle {
+  padding-left: 15px;
+  margin-top: 12px !important;
+}
+
+.selectTissuesExplainer {
+  max-width: variables.$content-container-width;
+  padding-left: 15px;
+
+  svg {
+    height: 14px;
+    width: 14px;
+    margin-right: 4px;
+
+    path {
+      fill: variables.$blue;
+    }
+  }
+}

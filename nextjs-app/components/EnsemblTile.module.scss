@@ -1,0 +1,64 @@
+@use "../styles/variables";
+
+.root {
+  width: variables.$content-container-width;
+  border-radius: variables.$border-radius !important;
+  border: 1px solid variables.$blue;
+  margin-top: 16px;
+
+  svg {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.heading {
+  flexbasis: "33.33%";
+  flexshrink: 0;
+  svg {
+    width: 30px;
+  }
+}
+
+.getGeneInfoButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 0;
+  margin: 0 0 0 15px;
+  font-size: 16px;
+  background: variables.$green;
+  color: variables.$white;
+  border: none;
+  border-radius: variables.$border-radius;
+  padding: 0 20px;
+
+  svg {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+  }
+}
+
+.downloadButton {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  padding: 0 32px;
+  font-size: 14px;
+  background: variables.$blue;
+  color: variables.$white;
+  border: none;
+  border-radius: variables.$border-radius;
+  padding: 0 10px;
+
+  svg {
+    height: 12px;
+    width: 12px;
+    margin-left: 10px;
+  }
+}

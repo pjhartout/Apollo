@@ -1,0 +1,36 @@
+@use "../styles/variables.scss";
+
+.uploadAnalysisSettings {
+  input[type="file"] {
+    display: none;
+  }
+}
+
+.customFileUpload {
+  display: flex;
+  flex-direction: row-reverse !important;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  padding: 20px 10px !important;
+  margin: 15px 0 !important;
+  color: variables.$black;
+  border: 1px solid variables.$black !important;
+  border-radius: variables.$border-radius;
+  cursor: pointer;
+  width: 230px;
+
+  span {
+    font-size: 15px;
+  }
+
+  svg {
+    height: 15px !important;
+    width: 15px !important;
+    margin-left: 15px;
+
+    path {
+      fill: variables.$black !important;
+    }
+  }
+}

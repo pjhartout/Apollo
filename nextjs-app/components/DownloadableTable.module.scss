@@ -1,0 +1,18 @@
+@use "../styles/variables.scss";
+
+.tableName {
+  font-weight: 700;
+
+  &:not(:first-child) {
+    margin-top: 48px;
+  }
+}
+
+.tableExplainer {
+  padding-bottom: 24px;
+  max-width: variables.$content-container-width;
+
+  &:not(:first-child) {
+    margin-bottom: 0;
+  }
+}

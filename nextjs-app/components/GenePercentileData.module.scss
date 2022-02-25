@@ -1,0 +1,20 @@
+.percentileThreshold {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+
+  span {
+    padding-right: 10px;
+  }
+
+  input {
+    width: 70px;
+  }
+}
+
+.skewStdDev {
+  margin: 0;
+  padding-left: 20px;
+}

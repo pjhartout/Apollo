@@ -1,0 +1,33 @@
+{
+  "GSEATable": [
+    {
+      "Header": "Category",
+      "accessor": "category",
+      "id": "id"
+    },
+    {
+      "Header": "GO term",
+      "accessor": "term"
+    },
+    {
+      "Header": "Description",
+      "accessor": "description"
+    },
+    {
+      "Header": "Number of genes involved in GO term",
+      "accessor": "number_of_genes"
+    },
+    {
+      "Header": "Number of genes involved in GO term (background)",
+      "accessor": "number_of_genes_in_background"
+    },
+    {
+      "Header": "NCBI Taxon ID",
+      "accessor": "ncbiTaxonId"
+    },
+    {
+      "Header": "Significance (p value)",
+      "accessor": "p_value"
+    }
+  ]
+}

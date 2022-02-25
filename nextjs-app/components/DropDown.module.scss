@@ -1,0 +1,33 @@
+@use "../styles/variables";
+
+.ddWrapper {
+  position: relative;
+  box-sizing: border-box;
+  user-select: none;
+  list-style: none;
+}
+
+.ddHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.ddList {
+  z-index: -1;
+  position: absolute;
+  padding: 0;
+}
+
+.ddListItem {
+  width: 100%;
+  cursor: default;
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  &:hover {
+  }
+}

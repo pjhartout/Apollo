@@ -1,0 +1,72 @@
+@use "../styles/variables";
+
+.setTile {
+  margin-left: 15px;
+}
+
+.switchWrapper {
+  margin-top: 10px;
+}
+
+.warning {
+  width: 700px;
+}
+
+.tissueMapping {
+  p {
+    margin: 10px 0 5px;
+  }
+
+  ul {
+    margin: 0 0 20px;
+    list-style-type: none;
+    padding-left: 20px;
+  }
+
+  li {
+    span {
+      margin-left: 5px;
+    }
+  }
+}
+
+.downstreamInfo {
+  max-width: 700px;
+}
+
+.recomputeSetPlotButton {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  margin: 20px 0;
+  font-size: 16px;
+  background: variables.$blue;
+  color: variables.$white;
+  border: none;
+  border-radius: variables.$border-radius;
+  padding: 0 10px;
+  cursor: pointer;
+
+  svg {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+  }
+}
+
+.eulerDiagram {
+  max-width: 300px;
+}
+
+.note {
+  background-color: variables.$plotly-background;
+  border: solid 1px variables.$blue;
+  border-radius: variables.$border-radius;
+  overflow: hidden;
+  padding: 12px;
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+  width: max-content;
+}

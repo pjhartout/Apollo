@@ -1,0 +1,16 @@
+@use "../styles/variables";
+
+.tableName {
+  font-weight: 700;
+}
+
+.tableExplainer {
+  padding-bottom: 24px;
+  max-width: variables.$content-container-width;
+  margin-bottom: 0;
+}
+
+.select {
+  margin-bottom: 16px;
+  max-width: variables.$content-container-width;
+}

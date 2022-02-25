@@ -1,0 +1,62 @@
+@use "../styles/variables.scss";
+
+.groupContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+  border-radius: variables.$border-radius;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 1em;
+  margin: 1em;
+  min-height: 250px;
+  flex: calc(50% - 2em);
+  width: calc(50% - 2em);
+  max-width: calc(50% - 2em);
+
+  @media (max-width: 1700px) {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.groupHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  svg {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.groupTitle {
+  padding: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+
+  &::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+/*
+.tissueList {
+  padding: 8px;
+  transition: background-color 0.2s ease;
+  background-color: ${(props) => (props.isDraggingOver ? "skyblue" : "white")}
+  flex-grow: 1;
+  min-height: 100px;
+}
+*/

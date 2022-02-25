@@ -1,0 +1,67 @@
+{
+  "InteractionPartnersTable": [
+    {
+      "Header": "ascore",
+      "accessor": "ascore"
+    },
+    {
+      "Header": "dscore",
+      "accessor": "dscore"
+    },
+    {
+      "Header": "escore",
+      "accessor": "escore"
+    },
+    {
+      "Header": "fscore",
+      "accessor": "fscore"
+    },
+    {
+      "Header": "nscore",
+      "accessor": "nscore"
+    },
+    {
+      "Header": "pscore",
+      "accessor": "pscore"
+    },
+    {
+      "Header": "tscore",
+      "accessor": "tscore"
+    },
+    {
+      "Header": "score",
+      "accessor": "score"
+    },
+    {
+      "Header": "preferredName_A",
+      "accessor": "preferredName_A",
+      "id": "id"
+    },
+    {
+      "Header": "preferredName_B",
+      "accessor": "preferredName_B"
+    }
+  ],
+  "degreeTable": [
+    {
+      "Header": "Gene",
+      "accessor": "gene"
+    },
+    {
+      "Header": "Degree",
+      "accessor": "degree",
+      "id": "id"
+    }
+  ],
+  "cliqueTable": [
+    {
+      "Header": "Clique members",
+      "accessor": "clique"
+    },
+    {
+      "Header": "Size of the clique",
+      "accessor": "size",
+      "id": "id"
+    }
+  ]
+}

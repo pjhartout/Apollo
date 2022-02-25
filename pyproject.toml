@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "apollo"
+version = "0.1.0"
+description = ""
+authors = ["Philip Hartout <philip.hartout@protonmail.com>", "Bas Straathof <bas_straathof@msn.com>", "Paul Lodder <paul_lodder@live.nl>"]
+
+[tool.poetry.dependencies]
+python = "3.9.7"
+isort = "^5.9.3"
+black = "^21.7b0"
+python-dotenv = "^0.19.2"
+numpy = "^1.22.2"
+pandas = "^1.4.1"
+requests = "^2.27.1"
+jsonschema = "^4.4.0"
+gtfparse = "^1.2.1"
+intervaltree = "^3.1.0"
+termcolor = "^1.1.0"
+PyYAML = "^6.0"
+lxml = "^4.7.1"
+cffi = "^1.15.0"
+cryptography = "^36.0.1"
+pyOpenSSL = "^22.0.0"
+ndg-httpsclient = "^0.5.1"
+bx-python = "^0.8.13"
+progressbar2 = "^4.0.0"
+joblib = "^1.1.0"
+plotly = "^5.6.0"
+scipy = "^1.8.0"
+pre-commit = "^2.17.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
